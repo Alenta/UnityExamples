@@ -1,0 +1,19 @@
+VisualElement {
+    color: rgb(213, 213, 213);
+}
+
+.tags {
+    font-size: 25px;
+    -unity-text-align: upper-center;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    -unity-font: url("project://database/Assets/Fonts/Raleway/static/Raleway-Bold.ttf?fileID=12800000&guid=59053cb3daa05504b8f58d67344c7f9a&type=3#Raleway-Bold");
+    -unity-font-definition: initial;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(232, 232, 232);
+    -unity-font-style: bold;
+}

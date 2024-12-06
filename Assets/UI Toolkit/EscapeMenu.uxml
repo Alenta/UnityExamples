@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/EscapeMenu.uss?fileID=7433441132597879392&amp;guid=3d2f9cc93f41f3048b44125af9ab28b0&amp;type=3#EscapeMenu" />
+    <ui:GroupBox name="EscapeMenu" style="position: absolute; min-width: 100%; min-height: 100%; visibility: hidden;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.64); position: absolute; width: 1925px; height: 1097px; left: -2px; top: -12px;" />
+        <ui:Label tabindex="-1" text="Pause" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-self: center; -unity-font: url(&quot;project://database/Assets/Fonts/Orbitron/static/Orbitron-Bold.ttf?fileID=12800000&amp;guid=7b4dce5c2aea2374db3d62dc18dce953&amp;type=3#Orbitron-Bold&quot;); -unity-font-definition: initial; font-size: 40px; color: rgb(230, 230, 230); margin-top: 25px;" />
+        <ui:GroupBox name="Group" style="top: 286px; visibility: hidden;">
+            <ui:Label tabindex="-1" text="CONTINE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Continue" class="button" style="align-self: center; -unity-font: url(&quot;project://database/Assets/Fonts/Raleway/static/Raleway-Bold.ttf?fileID=12800000&amp;guid=59053cb3daa05504b8f58d67344c7f9a&amp;type=3#Raleway-Bold&quot;); font-size: 60px; color: rgb(249, 249, 249); -unity-font-definition: initial;" />
+            <ui:Label tabindex="-1" text="SCENE SELECTION" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SceneSelection" class="button" style="align-self: center; -unity-font: url(&quot;project://database/Assets/Fonts/Raleway/static/Raleway-Bold.ttf?fileID=12800000&amp;guid=59053cb3daa05504b8f58d67344c7f9a&amp;type=3#Raleway-Bold&quot;); font-size: 60px; color: rgb(249, 249, 249); -unity-font-definition: initial;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

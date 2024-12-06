@@ -1,0 +1,9 @@
+.button {
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    color: rgb(234, 213, 0);
+}

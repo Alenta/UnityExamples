@@ -1,0 +1,31 @@
+.SceneCard {
+    width: 40%;
+    height: 200px;
+    background-color: rgb(47, 47, 47);
+    justify-content: flex-start;
+    left: 25px;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 30px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+}
+
+.SceneCard:hover {
+    width: 40%;
+    height: 200px;
+    background-color: rgb(61, 61, 61);
+    justify-content: flex-start;
+    left: 25px;
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 30px;
+    scale: 1.1 1.1;
+    translate: 35px 0;
+}
