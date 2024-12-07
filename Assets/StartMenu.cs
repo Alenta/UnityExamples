@@ -14,10 +14,8 @@ public class StartMenu : MonoBehaviour
     private VisualElement Splines;
     private GroupBox _EscapeMenu;
     private GroupBox _Group;
-    bool visible = false;
 
-    private void Awake()
-    {
+    private void Awake() {
         _document = GetComponent<UIDocument>();
         Conveyor = _document.rootVisualElement.Query<VisualElement>("Conveyor");
         Conveyor.RegisterCallback<ClickEvent>(LoadConveyor);
@@ -29,22 +27,16 @@ public class StartMenu : MonoBehaviour
         Splines.RegisterCallback<ClickEvent>(LoadSplines);
     }
 
-    public void LoadConveyor(EventBase evt)
-    {
+    public void LoadConveyor(EventBase evt) {
         SceneManager.LoadScene("Conveyor");
     }
-    public void LoadLerpVis(EventBase evt)
-    {
+    public void LoadLerpVis(EventBase evt) {
         SceneManager.LoadScene("LerpVis");
-
     }
-    public void LoadShaders(EventBase evt)
-    {
- 
+    public void LoadShaders(EventBase evt) {
         SceneManager.LoadScene("Shaders");
     }
-    public void LoadSplines(EventBase evt)
-    {
+    public void LoadSplines(EventBase evt) {
 
         SceneManager.LoadScene("Splines");
     }
