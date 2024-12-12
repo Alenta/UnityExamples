@@ -1,10 +1,5 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Timers;
-using Unity.VisualScripting;
-using UnityEditor.VersionControl;
 using UnityEngine;
 
 // Attachable MonoBehaviour to compare different movement interpolations

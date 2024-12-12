@@ -9,7 +9,8 @@ public class Movement : MonoBehaviour
     public Transform Cam;
     public bool FlyingCamera;
     Rigidbody _rigidbody;
-    Vector3 movementDir;
+    Vector3 movementDir = Vector3.zero;
+    
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -17,27 +18,19 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("w"))
+        if (Input.GetAxis("Vertical") != 0)
         {
-            movementDir = Cam.transform.forward;
+            movementDir.z = Input.GetAxis("Vertical");
         }
-        else if (Input.GetKey("s"))
+        else movementDir.y = 0;
+
+        if (Input.GetAxis("Horizontal") != 0)
         {
-            movementDir = -Cam.transform.forward;
+            movementDir.x = Input.GetAxis("Horizontal");
         }
-        else if (Input.GetKey("d"))
-        {
-            movementDir = Cam.transform.right;
-        }
-        else if (Input.GetKey("a"))
-        {
-            movementDir = -Cam.transform.right;
-        }
-        else
-        {
-            movementDir = Vector3.zero;
-        }
-        if (FlyingCamera) transform.position += movementDir * ((Speed * 5) * Time.deltaTime);
+        else movementDir.x = 0;
+
+        if (FlyingCamera) transform.position += (transform.forward * movementDir.z)  * ((Speed * 5) * Time.deltaTime); 
         else _rigidbody.velocity = movementDir * ((Speed * 50) * Time.deltaTime);
     }
 }
