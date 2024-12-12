@@ -12,6 +12,7 @@ public class StartMenu : MonoBehaviour
     private VisualElement LerpVis;
     private VisualElement Shaders;
     private VisualElement Splines;
+    private VisualElement Advent6Maze;
     private GroupBox _EscapeMenu;
     private GroupBox _Group;
 
@@ -25,6 +26,8 @@ public class StartMenu : MonoBehaviour
         Shaders.RegisterCallback<ClickEvent>(LoadShaders);
         Splines = _document.rootVisualElement.Query<VisualElement>("Splines");
         Splines.RegisterCallback<ClickEvent>(LoadSplines);
+        Advent6Maze = _document.rootVisualElement.Query<VisualElement>("AdventMaze");
+        Advent6Maze.RegisterCallback<ClickEvent>(LoadAdvent);
     }
 
     public void LoadConveyor(EventBase evt) {
@@ -39,5 +42,9 @@ public class StartMenu : MonoBehaviour
     public void LoadSplines(EventBase evt) {
 
         SceneManager.LoadScene("Splines");
+    }
+
+    public void LoadAdvent(EventBase evt) {
+        SceneManager.LoadScene("AdventDay6");
     }
 }
