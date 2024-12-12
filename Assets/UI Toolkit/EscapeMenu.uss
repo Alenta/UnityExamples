@@ -1,6 +1,7 @@
 .button {
     transition-timing-function: ease-in;
     transition-duration: 0.2s;
+    color: rgb(232, 232, 232);
 }
 
 .button:hover {
