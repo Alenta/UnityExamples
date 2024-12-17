@@ -68,7 +68,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
-    - _ColorBot: 0.9
+    - _ColorBot: 0
     - _ColorTop: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -83,19 +83,23 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _SecWaveMagnitude: 0.3
+    - _SecWaveSpeed: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Speed: 2
     - _SrcBlend: 1
     - _Transparency: 0.7
     - _UVSec: 0
+    - _WaveMagnitude: 0.2
+    - _WaveSpeed: 1
     - _ZWrite: 1
     m_Colors:
-    - _Albedo: {r: 0.43498036, g: 0.48400906, b: 0.7509433, a: 1}
+    - _Albedo: {r: 0.18764682, g: 0.21893378, b: 0.3962264, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradientColor0: {r: 0.40145952, g: 0.46168187, b: 0.6754716, a: 1}
-    - _GradientColor1: {r: 0.8969526, g: 0.9290016, b: 0.9924528, a: 1}
+    - _GradientColor0: {r: 0.19529366, g: 0.25674674, b: 0.4641509, a: 1}
+    - _GradientColor1: {r: 0.87358487, g: 0.91572326, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &7638672611960385745
 MonoBehaviour:
