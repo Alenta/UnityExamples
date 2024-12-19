@@ -25,6 +25,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2633003781568348949, guid: b914ebce7da71804782ec5b8baccf77b, type: 3}
+      propertyPath: AnimationMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2633003781568348949, guid: b914ebce7da71804782ec5b8baccf77b, type: 3}
       propertyPath: AnimationSpeed
       value: 1
       objectReference: {fileID: 0}
