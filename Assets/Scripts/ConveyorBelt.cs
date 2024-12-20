@@ -109,7 +109,7 @@ public class ConveyorBelt : Effector
                 // Uses my custom shader which currently only has one Float; _MainTexOffset, which directly sets the UV's y coordinate.
                 // This shader currently does nothing else but setting the texture.
                 
-                BeltRenderer.material.SetFloat("_MainTexOffset", BeltVelocity.y);
+                BeltRenderer.material.SetFloat("_Speed", BeltVelocity.y);
             }
             else if(AnimationMode == ConveyorMode.MeshAnimation)
             {
