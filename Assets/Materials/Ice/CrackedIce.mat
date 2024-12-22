@@ -50,12 +50,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Glitter_7640ca8a35224086bf4f565f68b65a5f_Texture_1405522693_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a79e3577e5dc3d34884f57b3384369c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Ice_Clouding:
         m_Texture: {fileID: 2800000, guid: ad48ec4aa86bf9740bb85250da6c348a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ice_Clouding_Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ad48ec4aa86bf9740bb85250da6c348a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ice_Mask:
@@ -148,8 +152,8 @@ Material:
     - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Clouding_Amount: 0.28
-    - _Clouding_Offset: 1.38
+    - _Clouding_Amount: 0.3
+    - _Clouding_Offset: 0.75
     - _Cracking_Amount: 0.87
     - _Cull: 2
     - _Cutoff: 0.5
@@ -161,10 +165,10 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MaxHeight: -0
+    - _MaxHeight: 0
     - _Metallic: 0
-    - _MinHeight: 1.37
-    - _Minimum_Alpha: 0.95
+    - _MinHeight: 2.26
+    - _Minimum_Alpha: 0.85
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _ParallaxOffset: -0.0016
@@ -186,6 +190,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Sparkle: {r: 13.784054, g: 28.096457, b: 42.722507, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &100553993152902908
