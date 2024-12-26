@@ -12,7 +12,11 @@
     ],
     "m_Keywords": [],
     "m_Dropdowns": [],
-    "m_CategoryData": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "98d37a8c329a4c888aad5cac0f8bbb4b"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "fd9f427a124e4abe9bfd280ce29c1787"
@@ -702,6 +706,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "98d37a8c329a4c888aad5cac0f8bbb4b",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "f5a0e7c374224e09b3066f44121a5930"
+        },
+        {
+            "m_Id": "3bd311291c074d05980accf5b06955a5"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "9bd1189242a6422198576f867edb0db4",
     "m_Group": {
@@ -712,10 +731,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -385.0,
-            "y": 0.000019073486328125,
-            "width": 0.0,
-            "height": 0.0
+            "x": -372.0000305175781,
+            "y": -132.8000030517578,
+            "width": 108.80001831054688,
+            "height": 33.600013732910159
         }
     },
     "m_Slots": [
@@ -748,10 +767,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 104.5999755859375,
-            "y": -80.79997253417969,
-            "width": 0.0,
-            "height": 0.0
+            "x": 60.79997634887695,
+            "y": -210.39999389648438,
+            "width": 105.60000610351563,
+            "height": 33.59999084472656
         }
     },
     "m_Slots": [
@@ -1189,10 +1208,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 558.5999145507813,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 516.0,
+            "y": -273.6000061035156,
+            "width": 120.0,
+            "height": 76.80000305175781
         }
     },
     "m_Slots": [
